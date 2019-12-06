@@ -258,4 +258,7 @@ hr{
     height 1px;
     width 50%;
 }
-
+.about{
+    padding: 0 2%;
+    margin-bottom: 0;
+}
