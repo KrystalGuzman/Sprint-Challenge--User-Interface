@@ -111,7 +111,102 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +220,12 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+button{
+    background-color: white;
+    border: 1px solid black;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
 footer {
     width: 100%;
     background: black;
@@ -143,4 +243,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav{
+    display:flex;
+    justify-content: space-around;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+hr{
+    border: none;
+    border-top: 1px dashed;
+    height 1px;
+    width 50%;
+}
+.about{
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+.jumbo {
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+ 
+.jumbo:hover {
+    animation-name: jittery;
+}
+ 
+@keyframes jittery {
+    10% {
+        transform: translate(-2px, -3px) scale(1.01, 1.01);
+    }
+    20% {
+        transform: translate(3px, 2px) scale(.99, .99);
+    }
+    30% {
+        transform: translate(-4px, -5px) scale(1.01, 1.01);
+    }
+    40% {
+        transform: translate(2px, 3px) scale(1, 1);
+    }
+    50% {
+        transform: translate(-1px, -2px) scale(.98, .98);
+    }
+    60% {
+        transform: translate(0px, 3px) scale(1.02, 1.02);
+    }
+    70% {
+        transform: translate(-2px, -4px) scale(1, 1);
+    }
+    80% {
+        transform: translate(3px, 5px) scale(.99, .99);
+    }
+    90% {
+        transform: translate(-5px, -3px) scale(1.1, 1.1);
+    }
+    100% {
+        transform: translate(3px, 1px) scale(.95, .95);
+    }
 }
